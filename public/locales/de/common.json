@@ -1,0 +1,32 @@
+{
+  "welcome": "Willkommen bei Eduecosystem",
+  "navigation": {
+    "home": "Startseite",
+    "courses": "Kurse",
+    "dashboard": "Dashboard",
+    "tutor": "KI-Tutor",
+    "liveClasses": "Live-Kurse",
+    "premium": "Premium",
+    "profile": "Profil",
+    "settings": "Einstellungen"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "submit": "Absenden",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "errors": {
+    "generic": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
+    "network": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.",
+    "unauthorized": "Sie müssen sich anmelden, um darauf zuzugreifen.",
+    "notFound": "Seite nicht gefunden."
+  }
+}

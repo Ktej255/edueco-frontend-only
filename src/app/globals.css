@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+/* Enable dark mode with class-based selector for Tailwind 4 */
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Primary Palette */
+  --primary-blue: #2667FF;
+  --primary-indigo: #1C1E4A;
+  --pure-white: #FFFFFF;
+
+  /* Secondary Palette */
+  --accent-green: #00C49A;
+  --accent-yellow: #FFC947;
+  --accent-coral: #FF6F61;
+
+  /* Neutrals */
+  --neutral-light-grey: #F5F6FA;
+  --neutral-cool-grey: #D3D5E0;
+  --neutral-dark-grey: #1A1A1A;
+  --neutral-slate-grey: #4A4A4A;
+
+  /* Base Colors */
+  --background: var(--neutral-light-grey);
+  --foreground: var(--neutral-dark-grey);
+
+  /* Shadcn UI Variables */
+  --card: #FFFFFF;
+  --card-foreground: var(--neutral-dark-grey);
+  --popover: #FFFFFF;
+  --popover-foreground: var(--neutral-dark-grey);
+  --primary: var(--primary-blue);
+  --primary-foreground: #FFFFFF;
+  --secondary: var(--neutral-light-grey);
+  --secondary-foreground: var(--neutral-dark-grey);
+  --muted: var(--neutral-light-grey);
+  --muted-foreground: var(--neutral-slate-grey);
+  --accent: var(--neutral-light-grey);
+  --accent-foreground: var(--neutral-dark-grey);
+  --destructive: #ef4444;
+  --destructive-foreground: #FFFFFF;
+  --border: var(--neutral-cool-grey);
+  --input: var(--neutral-cool-grey);
+  --ring: var(--primary-blue);
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary-blue: var(--primary-blue);
+  --color-primary-indigo: var(--primary-indigo);
+  --color-accent-green: var(--accent-green);
+  --color-accent-yellow: var(--accent-yellow);
+  --color-accent-coral: var(--accent-coral);
+
+  --color-neutral-light: var(--neutral-light-grey);
+  --color-neutral-cool: var(--neutral-cool-grey);
+  --color-neutral-dark: var(--neutral-dark-grey);
+  --color-neutral-slate: var(--neutral-slate-grey);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: 'Inter', 'Roboto', sans-serif;
+  --font-display: 'Poppins', 'Inter', sans-serif;
+  
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  --primary-indigo: #c7d2fe;
+  --neutral-light-grey: #171717;
+  --neutral-cool-grey: #262626;
+  --neutral-dark-grey: #ededed;
+  --neutral-slate-grey: #a3a3a3;
+
+  /* Re-assign base vars to new dark neutrals */
+  --background: var(--neutral-light-grey);
+  --foreground: var(--neutral-dark-grey);
+
+  /* Shadcn UI Variables Dark */
+  --card: #171717;
+  --card-foreground: #ededed;
+  --popover: #171717;
+  --popover-foreground: #ededed;
+  --primary: #3b82f6;
+  --primary-foreground: #FFFFFF;
+  --secondary: #262626;
+  --secondary-foreground: #ededed;
+  --muted: #262626;
+  --muted-foreground: #a3a3a3;
+  --accent: #262626;
+  --accent-foreground: #ededed;
+  --destructive: #7f1d1d;
+  --destructive-foreground: #ededed;
+  --border: #262626;
+  --input: #262626;
+  --ring: #3b82f6;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+}

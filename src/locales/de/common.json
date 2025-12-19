@@ -1,0 +1,21 @@
+{
+  "app": {
+    "name": "Ganzheitliches Lernökosystem",
+    "tagline": "Lernen, Wachsen, Erfolgreich sein"
+  },
+  "nav": {
+    "home": "Startseite",
+    "courses": "Kurse",
+    "dashboard": "Dashboard",
+    "myLearning": "Mein Lernen",
+    "instructor": "Dozent",
+    "admin": "Admin",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "logout": "Abmelden"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "selectLanguage": "Sprache auswählen"
+  }
+}

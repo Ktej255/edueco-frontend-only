@@ -1,0 +1,474 @@
+﻿.next/dev/types/validator.ts(1628,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectDetailPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectDetailPage")' but required in type 'PagesPageConfig'.
+.next/dev/types/validator.ts(1637,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectsPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectsPage")' but required in type 'PagesPageConfig'.
+.next/dev/types/validator.ts(1646,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupDetailPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupDetailPage")' but required in type 'PagesPageConfig'.
+.next/dev/types/validator.ts(1655,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupsPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupsPage")' but required in type 'PagesPageConfig'.
+.next/dev/types/validator.ts(1664,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/Organizations")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/Organizations")' but required in type 'PagesPageConfig'.
+.next/dev/types/validator.ts(1673,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/SSOConfig")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/SSOConfig")' but required in type 'PagesPageConfig'.
+.next/types/validator.ts(1628,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectDetailPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectDetailPage")' but required in type 'PagesPageConfig'.
+.next/types/validator.ts(1637,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectsPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/Projects/ProjectsPage")' but required in type 'PagesPageConfig'.
+.next/types/validator.ts(1646,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupDetailPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupDetailPage")' but required in type 'PagesPageConfig'.
+.next/types/validator.ts(1655,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupsPage")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/StudyGroups/StudyGroupsPage")' but required in type 'PagesPageConfig'.
+.next/types/validator.ts(1664,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/Organizations")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/Organizations")' but required in type 'PagesPageConfig'.
+.next/types/validator.ts(1673,31): error TS2344: Type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/SSOConfig")' does not satisfy the constraint 'PagesPageConfig'.
+  Property 'default' is missing in type 'typeof import("D:/Graphology/Master Software/Eduecosystem/frontend/src/pages/admin/SSOConfig")' but required in type 'PagesPageConfig'.
+e2e/complete-flow.spec.ts(1,30): error TS2307: Cannot find module '@playwright/test' or its corresponding type declarations.
+e2e/complete-flow.spec.ts(7,47): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(20,47): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(32,47): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(45,28): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(54,50): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(63,54): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(73,42): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(83,47): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(94,28): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(102,49): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(113,57): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(123,28): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(131,49): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(145,37): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(159,60): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(179,28): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(187,45): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(195,44): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(203,43): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(213,5): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(229,49): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(240,50): error TS7031: Binding element 'page' implicitly has an 'any' type.
+e2e/complete-flow.spec.ts(248,61): error TS7031: Binding element 'page' implicitly has an 'any' type.
+playwright.config.ts(1,39): error TS2307: Cannot find module '@playwright/test' or its corresponding type declarations.
+sentry.client.config.ts(5,25): error TS2307: Cannot find module '@sentry/nextjs' or its corresponding type declarations.
+sentry.client.config.ts(37,14): error TS7006: Parameter 'event' implicitly has an 'any' type.
+sentry.client.config.ts(37,21): error TS7006: Parameter 'hint' implicitly has an 'any' type.
+sentry.server.config.ts(5,25): error TS2307: Cannot find module '@sentry/nextjs' or its corresponding type declarations.
+src/app/(auth)/login/sso/page.tsx(1,10): error TS2614: Module '"@/components/SSOLogin"' has no exported member 'SSOLogin'. Did you mean to use 'import SSOLogin from "@/components/SSOLogin"' instead?
+src/app/(auth)/reset-password/page.tsx(16,19): error TS18047: 'searchParams' is possibly 'null'.
+src/app/(dashboard)/admin/categories/page.tsx(100,11): error TS2339: Property 'toast' does not exist on type 'ToastContextType'.
+src/app/(dashboard)/admin/email-logs/page.tsx(347,24): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+src/app/(dashboard)/analytics/page.tsx(297,27): error TS2339: Property 'category' does not exist on type 'PieLabelRenderProps'.
+src/app/(dashboard)/analytics/page.tsx(298,36): error TS18048: 'percent' is possibly 'undefined'.
+src/app/(dashboard)/checkout/success/page.tsx(19,22): error TS18047: 'searchParams' is possibly 'null'.
+src/app/(dashboard)/checkout/success/page.tsx(20,23): error TS18047: 'searchParams' is possibly 'null'.
+src/app/(dashboard)/dashboard/affiliate/page.tsx(20,35): error TS2305: Module '"@/components/ui/alert"' has no exported member 'AlertTitle'.
+src/app/(dashboard)/instructor/analytics/page.tsx(295,34): error TS18048: 'percent' is possibly 'undefined'.
+src/app/(dashboard)/instructor/courses/[id]/announcements/page.tsx(43,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/instructor/courses/[id]/content/page.tsx(221,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/instructor/courses/create/page.tsx(75,5): error TS2322: Type 'Resolver<{ title: string; description: string; level: "beginner" | "intermediate" | "advanced"; price: number; category_id?: string | undefined; duration_hours?: number | undefined; thumbnail_url?: string | undefined; language?: string | undefined; requirements?: string | undefined; what_you_learn?: string | undefin...' is not assignable to type 'Resolver<{ title: string; description: string; level: "beginner" | "intermediate" | "advanced"; price: number; language: string; category_id?: string | undefined; duration_hours?: number | undefined; thumbnail_url?: string | undefined; requirements?: string | undefined; what_you_learn?: string | undefined; }, any, {...'.
+  Types of parameters 'options' and 'options' are incompatible.
+    Type 'ResolverOptions<{ title: string; description: string; level: "beginner" | "intermediate" | "advanced"; price: number; language: string; category_id?: string | undefined; duration_hours?: number | undefined; thumbnail_url?: string | undefined; requirements?: string | undefined; what_you_learn?: string | undefined; }>' is not assignable to type 'ResolverOptions<{ title: string; description: string; level: "beginner" | "intermediate" | "advanced"; price: number; category_id?: string | undefined; duration_hours?: number | undefined; thumbnail_url?: string | undefined; language?: string | undefined; requirements?: string | undefined; what_you_learn?: string | ...'.
+      Type 'string | undefined' is not assignable to type 'string'.
+        Type 'undefined' is not assignable to type 'string'.
+src/app/(dashboard)/instructor/courses/create/page.tsx(207,36): error TS2345: Argument of type '(data: CourseFormData) => Promise<void>' is not assignable to parameter of type 'SubmitHandler<TFieldValues>'.
+  Types of parameters 'data' and 'data' are incompatible.
+    Type 'TFieldValues' is not assignable to type '{ title: string; description: string; level: "beginner" | "intermediate" | "advanced"; price: number; language: string; category_id?: string | undefined; duration_hours?: number | undefined; thumbnail_url?: string | undefined; requirements?: string | undefined; what_you_learn?: string | undefined; }'.
+      Type 'FieldValues' is missing the following properties from type '{ title: string; description: string; level: "beginner" | "intermediate" | "advanced"; price: number; language: string; category_id?: string | undefined; duration_hours?: number | undefined; thumbnail_url?: string | undefined; requirements?: string | undefined; what_you_learn?: string | undefined; }': title, description, level, price, language
+src/app/(dashboard)/lms/courses/[id]/announcements/new/page.tsx(20,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/announcements/page.tsx(28,22): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/discussions/[threadId]/page.tsx(54,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/discussions/[threadId]/page.tsx(55,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/discussions/new/page.tsx(32,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/discussions/page.tsx(57,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/edit/page-builder/page.tsx(16,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/question-banks/[bankId]/page.tsx(61,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/question-banks/[bankId]/page.tsx(62,18): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/lms/courses/[id]/question-banks/page.tsx(50,20): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/marketplace/bundles/[id]/page.tsx(20,12): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/marketplace/bundles/[id]/page.tsx(22,59): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/marketplace/bundles/[id]/page.tsx(31,7): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/orders/[id]/page.tsx(48,9): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/orders/[id]/page.tsx(49,32): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/orders/[id]/page.tsx(51,7): error TS18047: 'params' is possibly 'null'.
+src/app/(dashboard)/profile/page.tsx(33,16): error TS2339: Property 'bio' does not exist on type 'User'.
+src/app/(dashboard)/social/page.tsx(30,26): error TS2719: Type 'User' is not assignable to type 'User'. Two different types with this name exist, but they are unrelated.
+  Types of property 'full_name' are incompatible.
+    Type 'string | null' is not assignable to type 'string'.
+      Type 'null' is not assignable to type 'string'.
+src/app/(dashboard)/student/page.tsx(376,24): error TS2304: Cannot find name 'peerReviews'.
+src/app/(dashboard)/student/page.tsx(384,24): error TS2304: Cannot find name 'peerReviews'.
+src/app/(dashboard)/student/page.tsx(391,28): error TS2304: Cannot find name 'peerReviews'.
+src/app/(dashboard)/student/page.tsx(393,20): error TS2304: Cannot find name 'peerReviews'.
+src/app/(public)/verify/[hash]/page.tsx(33,16): error TS18047: 'params' is possibly 'null'.
+src/components/CourseReviews.tsx(248,31): error TS2339: Property 'review_text' does not exist on type 'Review'.
+src/components/features/assignments/PeerReviewForm.tsx(20,10): error TS2614: Module '"@/lib/api"' has no exported member 'api'. Did you mean to use 'import api from "@/lib/api"' instead?
+src/components/features/assignments/PeerReviewForm.tsx(46,5): error TS2322: Type 'Resolver<{ content: string; score?: unknown; }, any, { content: string; score?: number | undefined; }>' is not assignable to type 'Resolver<{ content: string; score?: number | undefined; }, any, { content: string; score?: number | undefined; }>'.
+  Types of parameters 'options' and 'options' are incompatible.
+    Type 'ResolverOptions<{ content: string; score?: number | undefined; }>' is not assignable to type 'ResolverOptions<{ content: string; score?: unknown; }>'.
+      Type 'unknown' is not assignable to type 'number | undefined'.
+src/components/features/assignments/PeerReviewForm.tsx(86,43): error TS2345: Argument of type '(values: z.infer<typeof reviewSchema>) => Promise<void>' is not assignable to parameter of type 'SubmitHandler<TFieldValues>'.
+  Types of parameters 'values' and 'data' are incompatible.
+    Type 'TFieldValues' is not assignable to type '{ content: string; score?: number | undefined; }'.
+      Property 'content' is missing in type 'FieldValues' but required in type '{ content: string; score?: number | undefined; }'.
+src/components/features/assignments/PeerReviewForm.tsx(88,13): error TS2322: Type 'Control<{ content: string; score?: number | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ content: string; score?: number | undefined; }, any, { content: string; score?: number | undefined; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ content: string; score?: number | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ content: string; score?: number | undefined; }, any, { content: string; score?: number | undefined; }> | undefined'.
+      Type 'Resolver<{ content: string; score?: number | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ content: string; score?: number | undefined; }, any, { content: string; score?: number | undefined; }>'.
+        Type 'ResolverResult<{ content: string; score?: number | undefined; }, TFieldValues> | Promise<ResolverResult<{ content: string; score?: number | undefined; }, TFieldValues>>' is not assignable to type 'ResolverResult<{ content: string; score?: number | undefined; }, { content: string; score?: number | undefined; }> | Promise<ResolverResult<{ content: string; score?: number | undefined; }, { ...; }>>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ content: string; score?: number | undefined; }, { content: string; score?: number | undefined; }> | Promise<ResolverResult<{ content: string; score?: number | undefined; }, { ...; }>>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ content: string; score?: number | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ content: string; score?: number | undefined; }'.
+                Property 'content' is missing in type 'FieldValues' but required in type '{ content: string; score?: number | undefined; }'.
+src/components/features/assignments/PeerReviewForm.tsx(107,13): error TS2322: Type 'Control<{ content: string; score?: number | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ content: string; score?: number | undefined; }, any, { content: string; score?: number | undefined; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ content: string; score?: number | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ content: string; score?: number | undefined; }, any, { content: string; score?: number | undefined; }> | undefined'.
+      Type 'Resolver<{ content: string; score?: number | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ content: string; score?: number | undefined; }, any, { content: string; score?: number | undefined; }>'.
+        Type 'ResolverResult<{ content: string; score?: number | undefined; }, TFieldValues> | Promise<ResolverResult<{ content: string; score?: number | undefined; }, TFieldValues>>' is not assignable to type 'ResolverResult<{ content: string; score?: number | undefined; }, { content: string; score?: number | undefined; }> | Promise<ResolverResult<{ content: string; score?: number | undefined; }, { ...; }>>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ content: string; score?: number | undefined; }, { content: string; score?: number | undefined; }> | Promise<ResolverResult<{ content: string; score?: number | undefined; }, { ...; }>>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ content: string; score?: number | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ content: string; score?: number | undefined; }'.
+                Property 'content' is missing in type 'FieldValues' but required in type '{ content: string; score?: number | undefined; }'.
+src/components/features/lms/builder/BuilderCanvas.tsx(105,12): error TS2304: Cannot find name 'Layout'.
+src/components/features/lms/ChatWidget.tsx(16,28): error TS2307: Cannot find module '@/components/ui/scroll-area' or its corresponding type declarations.
+src/components/features/lms/LiveClassCard.tsx(8,26): error TS2307: Cannot find module '@/components/ui/skeleton' or its corresponding type declarations.
+src/components/features/lms/LiveClassScheduler.tsx(57,5): error TS2322: Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: unknown; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  Types of parameters 'options' and 'options' are incompatible.
+    Type 'ResolverOptions<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>' is not assignable to type 'ResolverOptions<{ title: string; scheduled_at: string; duration_minutes: unknown; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+      Type 'unknown' is not assignable to type 'number'.
+src/components/features/lms/LiveClassScheduler.tsx(105,43): error TS2345: Argument of type '(values: z.infer<typeof liveClassSchema>) => Promise<void>' is not assignable to parameter of type 'SubmitHandler<TFieldValues>'.
+  Types of parameters 'values' and 'data' are incompatible.
+    Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+      Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/LiveClassScheduler.tsx(107,13): error TS2322: Type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }> | undefined'.
+      Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+        Type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, TFieldValues> | Promise<...>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+                Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/LiveClassScheduler.tsx(125,13): error TS2322: Type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }> | undefined'.
+      Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+        Type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, TFieldValues> | Promise<...>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+                Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/LiveClassScheduler.tsx(146,15): error TS2322: Type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }> | undefined'.
+      Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+        Type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, TFieldValues> | Promise<...>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+                Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/LiveClassScheduler.tsx(166,15): error TS2322: Type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }> | undefined'.
+      Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+        Type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, TFieldValues> | Promise<...>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+                Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/LiveClassScheduler.tsx(189,13): error TS2322: Type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }> | undefined'.
+      Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+        Type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, TFieldValues> | Promise<...>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+                Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/LiveClassScheduler.tsx(217,13): error TS2322: Type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }> | undefined'.
+      Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+        Type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, TFieldValues> | Promise<...>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+                Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/LiveClassScheduler.tsx(241,13): error TS2322: Type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Control<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+  The types of '_options.resolver' are incompatible between these types.
+    Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues> | undefined' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }> | undefined'.
+      Type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, TFieldValues>' is not assignable to type 'Resolver<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, any, { ...; }>'.
+        Type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, TFieldValues> | Promise<...>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+          Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverResult<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }, { ...; }> | Promise<...>'.
+            Type 'ResolverSuccess<TFieldValues>' is not assignable to type 'ResolverSuccess<{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }>'.
+              Type 'TFieldValues' is not assignable to type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }'.
+                Type 'FieldValues' is missing the following properties from type '{ title: string; scheduled_at: string; duration_minutes: number; platform: "zoom" | "custom" | "meet" | "teams" | "webrtc"; description?: string | undefined; meeting_url?: string | undefined; meeting_password?: string | undefined; }': title, scheduled_at, duration_minutes, platform
+src/components/features/lms/MediaAttachments.tsx(265,23): error TS2345: Argument of type '({ id: number; name: string; url: string; type: string; size: number; } | { name: string; url: any; type: string; size: number; })[]' is not assignable to parameter of type 'SetStateAction<{ id: number; name: string; url: string; type: string; size: number; }[]>'.
+  Type '({ id: number; name: string; url: string; type: string; size: number; } | { name: string; url: any; type: string; size: number; })[]' is not assignable to type '{ id: number; name: string; url: string; type: string; size: number; }[]'.
+    Type '{ id: number; name: string; url: string; type: string; size: number; } | { name: string; url: any; type: string; size: number; }' is not assignable to type '{ id: number; name: string; url: string; type: string; size: number; }'.
+      Property 'id' is missing in type '{ name: string; url: any; type: string; size: number; }' but required in type '{ id: number; name: string; url: string; type: string; size: number; }'.
+src/components/theme-provider.tsx(5,41): error TS2307: Cannot find module 'next-themes/dist/types' or its corresponding type declarations.
+src/components/tutor/ChatInterface.tsx(11,28): error TS2307: Cannot find module '@/components/ui/scroll-area' or its corresponding type declarations.
+src/components/video/VideoRoom.tsx(60,22): error TS2554: Expected 1 arguments, but got 0.
+src/hooks/useLiveClassWebSocket.ts(124,32): error TS2345: Argument of type '(message: LiveClassMessage) => void' is not assignable to parameter of type 'MessageHandler'.
+  Types of parameters 'message' and 'message' are incompatible.
+    Type 'WebSocketMessage' is not assignable to type 'LiveClassMessage'.
+      Types of property 'type' are incompatible.
+        Type 'string' is not assignable to type '"live_class_update" | "chat_message" | "user_joined" | "user_left" | "online_users" | "user_typing" | "user_stopped_typing" | "poll_created" | "poll_updated" | "poll_status_changed" | "new_question" | "question_answered" | "question_upvoted" | "reaction"'.
+src/hooks/useRealtime.ts(8,25): error TS2307: Cannot find module '@/contexts/AuthContext' or its corresponding type declarations.
+src/hooks/useWebSocket.ts(9,25): error TS2307: Cannot find module '@/contexts/AuthContext' or its corresponding type declarations.
+src/lib/swr-config.tsx(3,27): error TS2307: Cannot find module 'swr' or its corresponding type declarations.
+src/pages/admin/Organizations.tsx(4,17): error TS2307: Cannot find module '../../utils/api' or its corresponding type declarations.
+src/pages/admin/SSOConfig.tsx(3,17): error TS2307: Cannot find module '../../utils/api' or its corresponding type declarations.
+src/pages/AdvancedRevenueAnalytics.tsx(48,17): error TS2307: Cannot find module '../../services/api' or its corresponding type declarations.
+src/pages/AdvancedRevenueAnalytics.tsx(203,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(242,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(260,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(279,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(298,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(364,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(379,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(394,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(432,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(449,36): error TS2339: Property 'course' does not exist on type 'PieLabelRenderProps'.
+src/pages/AdvancedRevenueAnalytics.tsx(449,53): error TS2551: Property 'percentage' does not exist on type 'PieLabelRenderProps'. Did you mean 'percent'?
+src/pages/AdvancedRevenueAnalytics.tsx(473,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(503,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(513,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(521,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/AdvancedRevenueAnalytics.tsx(531,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CartPage.tsx(205,10): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: (Element | Element[])[]; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: (Element | Element[])[]; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CartPage.tsx(310,10): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CheckoutPage.tsx(2,29): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+src/pages/CheckoutPage.tsx(32,17): error TS2307: Cannot find module '../services/api' or its corresponding type declarations.
+src/pages/CheckoutPage.tsx(275,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CheckoutPage.tsx(286,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CheckoutPage.tsx(298,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CheckoutPage.tsx(309,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CheckoutPage.tsx(320,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CheckoutPage.tsx(328,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CheckoutPage.tsx(339,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CohortAnalytics.tsx(170,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CohortAnalytics.tsx(186,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CohortAnalytics.tsx(212,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CohortAnalytics.tsx(232,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CohortAnalytics.tsx(252,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/CohortAnalytics.tsx(272,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ComparisonAnalytics.tsx(204,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ComparisonAnalytics.tsx(228,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ComparisonAnalytics.tsx(366,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ComparisonAnalytics.tsx(393,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ExecutiveDashboard.tsx(241,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ExecutiveDashboard.tsx(301,14): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: (Element | Element[])[]; item: true; xs: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: (Element | Element[])[]; item: true; xs: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ExecutiveDashboard.tsx(346,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ExecutiveDashboard.tsx(363,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ExecutiveDashboard.tsx(395,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ExecutiveDashboard.tsx(412,12): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; sm: number; md: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; sm: number; md: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/ExecutiveDashboard.tsx(452,16): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: { component: ElementType<any, keyof IntrinsicElements>; } & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<...> & Omit<...>): Element | null', gave the following error.
+    Property 'component' is missing in type '{ children: Element; item: true; xs: number; key: number; }' but required in type '{ component: ElementType<any, keyof IntrinsicElements>; }'.
+  Overload 2 of 2, '(props: DefaultComponentProps<GridTypeMap<{}, "div">>): Element | null', gave the following error.
+    Type '{ children: Element; item: true; xs: number; key: number; }' is not assignable to type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+      Property 'item' does not exist on type 'IntrinsicAttributes & GridBaseProps & { sx?: SxProps<Theme> | undefined; } & SystemProps<Theme> & Omit<...>'.
+src/pages/OrderHistoryPage.tsx(2,29): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+src/pages/OrderHistoryPage.tsx(35,17): error TS2307: Cannot find module '../services/api' or its corresponding type declarations.
+src/pages/Projects/ProjectDetailPage.tsx(2,27): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+src/pages/Projects/ProjectDetailPage.tsx(15,21): error TS2307: Cannot find module '../../services/api' or its corresponding type declarations.
+src/pages/Projects/ProjectsPage.tsx(2,22): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+src/pages/Projects/ProjectsPage.tsx(11,21): error TS2307: Cannot find module '../../services/api' or its corresponding type declarations.
+src/pages/StudyGroups/StudyGroupDetailPage.tsx(2,40): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+src/pages/StudyGroups/StudyGroupDetailPage.tsx(11,21): error TS2307: Cannot find module '../../services/api' or its corresponding type declarations.
+src/pages/StudyGroups/StudyGroupsPage.tsx(2,22): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+src/pages/StudyGroups/StudyGroupsPage.tsx(4,21): error TS2307: Cannot find module '../../services/api' or its corresponding type declarations.

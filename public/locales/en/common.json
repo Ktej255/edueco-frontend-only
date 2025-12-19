@@ -1,0 +1,32 @@
+{
+  "welcome": "Welcome to Eduecosystem",
+  "navigation": {
+    "home": "Home",
+    "courses": "Courses",
+    "dashboard": "Dashboard",
+    "tutor": "AI Tutor",
+    "liveClasses": "Live Classes",
+    "premium": "Premium",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You need to log in to access this.",
+    "notFound": "Page not found."
+  }
+}

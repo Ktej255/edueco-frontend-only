@@ -1,0 +1,312 @@
+[
+    {
+        "source": "brahman",
+        "target": "vedas",
+        "type": "derivation"
+    },
+    {
+        "source": "vedas",
+        "target": "rig-veda",
+        "type": "branch"
+    },
+    {
+        "source": "vedas",
+        "target": "sama-veda",
+        "type": "branch"
+    },
+    {
+        "source": "vedas",
+        "target": "yajur-veda",
+        "type": "branch"
+    },
+    {
+        "source": "vedas",
+        "target": "atharva-veda",
+        "type": "branch"
+    },
+    {
+        "source": "vedas",
+        "target": "karma-kand",
+        "type": "classification"
+    },
+    {
+        "source": "vedas",
+        "target": "jnana-kand",
+        "type": "classification"
+    },
+    {
+        "source": "karma-kand",
+        "target": "samhitas",
+        "type": "derivation"
+    },
+    {
+        "source": "karma-kand",
+        "target": "brahmanas",
+        "type": "derivation"
+    },
+    {
+        "source": "jnana-kand",
+        "target": "aranyakas",
+        "type": "derivation"
+    },
+    {
+        "source": "jnana-kand",
+        "target": "upanishads",
+        "type": "derivation"
+    },
+    {
+        "source": "upanishads",
+        "target": "principal-upanishads",
+        "type": "branch"
+    },
+    {
+        "source": "smriti-section",
+        "target": "dharma-shastras",
+        "type": "branch"
+    },
+    {
+        "source": "smriti-section",
+        "target": "itihas",
+        "type": "branch"
+    },
+    {
+        "source": "smriti-section",
+        "target": "puranas",
+        "type": "branch"
+    },
+    {
+        "source": "smriti-section",
+        "target": "upavedas",
+        "type": "branch"
+    },
+    {
+        "source": "smriti-section",
+        "target": "agamas",
+        "type": "branch"
+    },
+    {
+        "source": "dharma-shastras",
+        "target": "manu-smriti",
+        "type": "derivation"
+    },
+    {
+        "source": "dharma-shastras",
+        "target": "yajnavalkya-smriti",
+        "type": "derivation"
+    },
+    {
+        "source": "dharma-shastras",
+        "target": "parashara-smriti",
+        "type": "derivation"
+    },
+    {
+        "source": "dharma-shastras",
+        "target": "narada-smriti",
+        "type": "derivation"
+    },
+    {
+        "source": "itihas",
+        "target": "ramayana",
+        "type": "branch"
+    },
+    {
+        "source": "itihas",
+        "target": "mahabharata",
+        "type": "branch"
+    },
+    {
+        "source": "mahabharata",
+        "target": "bhagavad-gita",
+        "type": "derivation"
+    },
+    {
+        "source": "puranas",
+        "target": "puranas-list",
+        "type": "derivation"
+    },
+    {
+        "source": "sutra",
+        "target": "brahma-sutra",
+        "type": "branch"
+    },
+    {
+        "source": "sutra",
+        "target": "kalpa-sutra",
+        "type": "branch"
+    },
+    {
+        "source": "sutra",
+        "target": "sulba-sutra",
+        "type": "branch"
+    },
+    {
+        "source": "sutra",
+        "target": "dharma-sutra",
+        "type": "branch"
+    },
+    {
+        "source": "sutra",
+        "target": "grihya-sutra",
+        "type": "branch"
+    },
+    {
+        "source": "sutra",
+        "target": "shrauta-sutra",
+        "type": "branch"
+    },
+    {
+        "source": "upanishads",
+        "target": "darshanas",
+        "type": "convergence"
+    },
+    {
+        "source": "bhagavad-gita",
+        "target": "darshanas",
+        "type": "convergence"
+    },
+    {
+        "source": "brahma-sutra",
+        "target": "darshanas",
+        "type": "convergence"
+    },
+    {
+        "source": "darshanas",
+        "target": "samkhya",
+        "type": "branch"
+    },
+    {
+        "source": "darshanas",
+        "target": "yoga",
+        "type": "branch"
+    },
+    {
+        "source": "darshanas",
+        "target": "nyaya",
+        "type": "branch"
+    },
+    {
+        "source": "darshanas",
+        "target": "vaisheshika",
+        "type": "branch"
+    },
+    {
+        "source": "darshanas",
+        "target": "purva-mimamsa",
+        "type": "branch"
+    },
+    {
+        "source": "darshanas",
+        "target": "uttara-mimamsa",
+        "type": "branch"
+    },
+    {
+        "source": "vedas",
+        "target": "vedangas",
+        "type": "derivation"
+    },
+    {
+        "source": "vedangas",
+        "target": "shiksha",
+        "type": "branch"
+    },
+    {
+        "source": "vedangas",
+        "target": "vyakarana",
+        "type": "branch"
+    },
+    {
+        "source": "vedangas",
+        "target": "chandas",
+        "type": "branch"
+    },
+    {
+        "source": "vedangas",
+        "target": "nirukta",
+        "type": "branch"
+    },
+    {
+        "source": "vedangas",
+        "target": "jyotisha",
+        "type": "branch"
+    },
+    {
+        "source": "vedangas",
+        "target": "kalpa",
+        "type": "branch"
+    },
+    {
+        "source": "upavedas",
+        "target": "ayurveda",
+        "type": "branch"
+    },
+    {
+        "source": "upavedas",
+        "target": "dhanurveda",
+        "type": "branch"
+    },
+    {
+        "source": "upavedas",
+        "target": "gandharvaveda",
+        "type": "branch"
+    },
+    {
+        "source": "upavedas",
+        "target": "sthapatyaveda",
+        "type": "branch"
+    },
+    {
+        "source": "agamas",
+        "target": "shaiva-agama",
+        "type": "branch"
+    },
+    {
+        "source": "agamas",
+        "target": "vaishnava-agama",
+        "type": "branch"
+    },
+    {
+        "source": "agamas",
+        "target": "shakta-agama",
+        "type": "branch"
+    },
+    {
+        "source": "darshanas",
+        "target": "bhashyam",
+        "type": "derivation"
+    },
+    {
+        "source": "bhashyam",
+        "target": "prakarana",
+        "type": "derivation"
+    },
+    {
+        "source": "bhashyam",
+        "target": "vartika",
+        "type": "derivation"
+    },
+    {
+        "source": "bhashyam",
+        "target": "bhashya-list",
+        "type": "derivation"
+    },
+    {
+        "source": "vartika",
+        "target": "tika",
+        "type": "derivation"
+    },
+    {
+        "source": "prakarana",
+        "target": "prakarana-list",
+        "type": "derivation"
+    },
+    {
+        "source": "principal-upanishads",
+        "target": "isa-upanishad",
+        "type": "branch"
+    },
+    {
+        "source": "principal-upanishads",
+        "target": "kena-upanishad",
+        "type": "branch"
+    }
+]

@@ -1,0 +1,21 @@
+{
+  "app": {
+    "name": "نظام التعلم الشامل",
+    "tagline": "تعلم، نمو، نجاح"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "courses": "الدورات",
+    "dashboard": "لوحة القيادة",
+    "myLearning": "تعلمي",
+    "instructor": "المدرب",
+    "admin": "المدير",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "common": {
+    "loading": "جار التحميل...",
+    "selectLanguage": "اختر اللغة"
+  }
+}

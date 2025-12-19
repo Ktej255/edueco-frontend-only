@@ -1,0 +1,4 @@
+﻿src/locales/fr/common.json(8,1): error TS1136: Property assignment expected.
+src/locales/fr/common.json(8,3): error TS1136: Property assignment expected.
+src/locales/fr/common.json(30,2): error TS1136: Property assignment expected.
+src/locales/fr/common.json(30,4): error TS1005: '}' expected.

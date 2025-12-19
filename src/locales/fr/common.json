@@ -1,0 +1,21 @@
+{
+    "app": {
+        "name": "Écosystème d'Apprentissage Holistique",
+        "tagline": "Apprendre, Grandir, Réussir"
+    },
+    "nav": {
+        "home": "Accueil",
+        "courses": "Cours",
+        "dashboard": "Tableau de bord",
+        "myLearning": "Mon Apprentissage",
+        "instructor": "Instructeur",
+        "admin": "Admin",
+        "profile": "Profil",
+        "settings": "Paramètres",
+        "logout": "Déconnexion"
+    },
+    "common": {
+        "loading": "Chargement...",
+        "selectLanguage": "Sélectionner la langue"
+    }
+}

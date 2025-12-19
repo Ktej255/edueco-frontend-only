@@ -1,0 +1,18 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+ ⚠ `images.domains` is deprecated in favor of `images.remotePatterns`. Please update next.config.js to protect your application from malicious users.
+   ▲ Next.js 16.0.5 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.29.89:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+D:\Graphology\Master Software\Eduecosystem\frontend\node_modules\next\dist\shared\lib\router\utils\sorted-routes.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+D:\Graphology\Master Software\Eduecosystem\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+Error: You cannot use different slug names for the same dynamic path ('id' !== 'orgId').
+    at ignore-listed frames
+[?25h
