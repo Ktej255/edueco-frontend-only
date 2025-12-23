@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, BookOpen, Sun, Sparkles, Languages, ChevronRight, ChevronLeft, Volume2, VolumeX, Eye } from "lucide-react";
+import { ArrowLeft, BookOpen, Sun, Sparkles, Languages, ChevronRight, ChevronLeft, Volume2, VolumeX, Eye, Info, ListChecks, Heart, Zap } from "lucide-react";
 import { ISHA_METADATA, ISHA_UPANISHAD } from "@/components/batch2/upanishads/data/isha-shlokas";
 import { getShlokaImage } from "@/components/batch2/upanishads/data/isha-images";
 
@@ -14,10 +14,28 @@ const knowledgeData = ISHA_UPANISHAD.filter(d => d.section === "Knowledge");
 const prayerData = ISHA_UPANISHAD.filter(d => d.section === "Prayer");
 
 // ==========================================
+// WORD MEANINGS COMPONENT
+// ==========================================
+function WordMeanings({ meanings, lang }: { meanings: any[], lang: "en" | "hi" }) {
+    return (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
+            {meanings.map((m, i) => (
+                <div key={i} className="bg-amber-950/30 border border-amber-600/10 rounded-xl p-3 hover:border-amber-500/30 transition-all">
+                    <p className="text-amber-200 font-serif text-lg mb-1">{m.devanagari}</p>
+                    <p className="text-amber-500/60 text-[10px] uppercase tracking-tighter mb-1">{m.sanskrit}</p>
+                    <p className="text-amber-50 text-sm">{lang === "en" ? m.english : m.hindi}</p>
+                </div>
+            ))}
+        </div>
+    );
+}
+
+// ==========================================
 // WISDOM STREAM COMPONENT (Standard view)
 // ==========================================
 function WisdomStream({ data, lang, title, subtitle }: { data: any[], lang: "en" | "hi", title: string, subtitle: string }) {
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [showMeanings, setShowMeanings] = useState(false);
     const shloka = data[currentIndex];
     const image = getShlokaImage(shloka.number);
 
@@ -70,6 +88,29 @@ function WisdomStream({ data, lang, title, subtitle }: { data: any[], lang: "en"
                                 <p className="text-amber-50 text-lg leading-relaxed">
                                     {lang === "en" ? shloka.meaningEnglish : shloka.meaningHindi}
                                 </p>
+                            </div>
+
+                            {/* Word Meanings Toggle */}
+                            <div>
+                                <button
+                                    onClick={() => setShowMeanings(!showMeanings)}
+                                    className="text-amber-500/60 hover:text-amber-400 text-[10px] font-black uppercase tracking-widest flex items-center gap-2 mb-4"
+                                >
+                                    <BookOpen className="w-3 h-3" />
+                                    {showMeanings ? (lang === "en" ? "Hide Word Meanings" : "शब्दार्थ छिपाएं") : (lang === "en" ? "Show Word Meanings" : "शब्दार्थ दिखाएं")}
+                                </button>
+                                <AnimatePresence>
+                                    {showMeanings && (
+                                        <motion.div
+                                            initial={{ opacity: 0, height: 0 }}
+                                            animate={{ opacity: 1, height: "auto" }}
+                                            exit={{ opacity: 0, height: 0 }}
+                                            className="overflow-hidden"
+                                        >
+                                            <WordMeanings meanings={shloka.wordMeanings} lang={lang} />
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
                             </div>
 
                             {/* Sarit's Insight */}
@@ -167,19 +208,132 @@ function WisdomStream({ data, lang, title, subtitle }: { data: any[], lang: "en"
         </div>
     );
 }
+// ==========================================
+// ISHA OVERVIEW COMPONENT (Simple Understanding)
+// ==========================================
+function IshaOverview({ lang }: { lang: "en" | "hi" }) {
+    const pillars = [
+        {
+            title: lang === "en" ? "Divine Pervasion" : "दिव्य सर्वव्यापकता",
+            desc: lang === "en" ? "Everything in this universe is filled with the Divine Presence." : "इस ब्रह्मांड की हर वस्तु ईश्वरीय उपस्थिति से भरी हुई है।",
+            icon: Sun,
+            color: "from-amber-400 to-orange-500"
+        },
+        {
+            title: lang === "en" ? "Enjoy with Detachment" : "अनासक्ति से भोग",
+            desc: lang === "en" ? "Use world's resources like a guest, not an owner." : "संसार के संसाधनों का उपयोग अतिथि की तरह करें, स्वामी की तरह नहीं।",
+            icon: Heart,
+            color: "from-rose-400 to-pink-600"
+        },
+        {
+            title: lang === "en" ? "Active Service" : "निष्काम कर्म",
+            desc: lang === "en" ? "Work for 100 years without getting bound by the results." : "परिणामों से बंधे बिना 100 वर्षों तक कार्य करें।",
+            icon: Zap,
+            color: "from-blue-400 to-indigo-600"
+        },
+        {
+            title: lang === "en" ? "The Higher Self" : "परमात्मा",
+            desc: lang === "en" ? "The same spirit lives in you and everyone else." : "वही आत्मा आप में और बाकी सब में रहती है।",
+            icon: Sparkles,
+            color: "from-purple-400 to-fuchsia-600"
+        }
+    ];
 
+    return (
+        <div className="space-y-16">
+            <div className="text-center max-w-3xl mx-auto space-y-4">
+                <h2 className="text-4xl md:text-5xl font-serif font-bold text-amber-100 italic">
+                    {lang === "en" ? "The Core Message" : "मुख्य संदेश"}
+                </h2>
+                <p className="text-amber-500/60 leading-relaxed">
+                    {lang === "en"
+                        ? "Isha Upanishad teaches us how to live in the world without being of the world. It bridges the gap between material work and spiritual wisdom."
+                        : "ईशावास्य उपनिषद् हमें सिखाता है कि संसार में रहते हुए भी संसार का कैसे न हुआ जाए। यह भौतिक कार्य और आध्यात्मिक ज्ञान के बीच की दूरी को पाटता है।"}
+                </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                {pillars.map((p, i) => (
+                    <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: i * 0.1 }}
+                        className="bg-amber-950/20 border border-amber-600/20 rounded-3xl p-8 hover:bg-amber-950/40 transition-all group relative overflow-hidden"
+                    >
+                        <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${p.color} opacity-5 blur-2xl group-hover:opacity-10 transition-opacity`} />
+                        <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${p.color} flex items-center justify-center mb-6 shadow-lg shadow-amber-600/10`}>
+                            <p.icon className="w-7 h-7 text-white" />
+                        </div>
+                        <h3 className="text-xl font-bold text-white mb-4">{p.title}</h3>
+                        <p className="text-amber-50/60 text-sm leading-relaxed">{p.desc}</p>
+                    </motion.div>
+                ))}
+            </div>
+
+            <div className="bg-gradient-to-br from-amber-600/10 to-transparent border border-amber-600/20 rounded-3xl p-10 mt-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div className="space-y-6">
+                        <h3 className="text-3xl font-serif font-bold text-amber-100">
+                            {lang === "en" ? "The Ultimate Realization" : "परम साक्षात्कार"}
+                        </h3>
+                        <div className="space-y-4">
+                            <div className="flex gap-4">
+                                <div className="w-8 h-8 rounded-full bg-amber-600/20 flex items-center justify-center shrink-0">
+                                    <span className="text-amber-500 font-bold">1</span>
+                                </div>
+                                <p className="text-amber-50/80">
+                                    {lang === "en" ? "Detach from the result of actions (Renunciation)." : "कर्मों के फल से विरक्त हों (त्याग)।"}
+                                </p>
+                            </div>
+                            <div className="flex gap-4">
+                                <div className="w-8 h-8 rounded-full bg-amber-600/20 flex items-center justify-center shrink-0">
+                                    <span className="text-amber-500 font-bold">2</span>
+                                </div>
+                                <p className="text-amber-50/80">
+                                    {lang === "en" ? "Balance worldly survival with spiritual growth." : "आध्यात्मिक विकास के साथ सांसारिक जीवन का संतुलन बनाएं।"}
+                                </p>
+                            </div>
+                            <div className="flex gap-4">
+                                <div className="w-8 h-8 rounded-full bg-amber-600/20 flex items-center justify-center shrink-0">
+                                    <span className="text-amber-500 font-bold">3</span>
+                                </div>
+                                <p className="text-amber-50/80">
+                                    {lang === "en" ? "See the same Oneness in everything." : "हर चीज में एक ही एकता देखें।"}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="relative aspect-video rounded-2xl overflow-hidden bg-black flex items-center justify-center border border-amber-500/20 shadow-2xl">
+                        <motion.div
+                            animate={{ scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
+                            transition={{ duration: 10, repeat: Infinity }}
+                            className="text-8xl md:text-[120px] font-serif font-black text-transparent bg-clip-text bg-gradient-to-b from-amber-100 to-amber-600 opacity-20"
+                        >
+                            SO'HAM
+                        </motion.div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+                            <div className="w-32 h-32 rounded-full border border-amber-500/30 flex items-center justify-center mb-6">
+                                <Sun className="w-16 h-16 text-amber-500 animate-pulse" />
+                            </div>
+                            <p className="text-amber-500 font-black tracking-widest text-xs uppercase">The Final Truth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
 // ==========================================
 // REVELATION MODE (15-18)
 // ==========================================
 function RevelationMode({ lang }: { lang: "en" | "hi" }) {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isRevealed, setIsRevealed] = useState(false);
+    const [isRevealed, setIsRevealed] = useState(true); // Default to true or a cinematic intro
     const shloka = prayerData[currentIndex];
     const image = getShlokaImage(shloka.number);
 
-    useEffect(() => {
-        setIsRevealed(false);
-    }, [currentIndex]);
+    const isSoham = shloka.number === 16;
 
     return (
         <div className="max-w-6xl mx-auto space-y-12">
@@ -190,62 +344,50 @@ function RevelationMode({ lang }: { lang: "en" | "hi" }) {
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 {/* Visual Reveal Mechaninc (Lid) */}
-                <div className="lg:col-span-5 relative aspect-square rounded-3xl overflow-hidden border-2 border-amber-500/30 shadow-2xl bg-black">
-                    <AnimatePresence>
-                        {!isRevealed ? (
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                exit={{ opacity: 0, scale: 1.5, rotate: 10 }}
-                                className="absolute inset-0 z-20 bg-gradient-to-br from-amber-400 via-amber-600 to-amber-900 flex flex-col items-center justify-center p-12 text-center cursor-pointer group"
-                                onClick={() => setIsRevealed(true)}
-                            >
-                                <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/gold-dust.png')] pointer-events-none" />
+                <div className="lg:col-span-12 relative aspect-[21/9] rounded-3xl overflow-hidden border-2 border-amber-500/30 shadow-2xl bg-black mb-12">
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            key={shloka.number}
+                            initial={{ opacity: 0, scale: 1.1 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0.9 }}
+                            transition={{ duration: 1.5 }}
+                            className="absolute inset-0 z-10 bg-black flex items-center justify-center"
+                        >
+                            {image ? (
+                                <img src={image} className="w-full h-full object-cover opacity-60" alt="Truth Revealed" />
+                            ) : (
+                                <div className="text-center space-y-4">
+                                    <div className="text-6xl animate-pulse">☀️</div>
+                                    <p className="text-amber-500 font-bold uppercase tracking-widest text-[10px]">Pure Consciousness Revealed</p>
+                                </div>
+                            )}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
+
+                            {/* Special So'ham Overlay */}
+                            {isSoham && (
                                 <motion.div
-                                    animate={{ scale: [1, 1.05, 1], rotate: [0, 5, -5, 0] }}
-                                    transition={{ duration: 6, repeat: Infinity }}
-                                    className="w-32 h-32 bg-amber-200/20 rounded-full border-4 border-amber-100/40 flex items-center justify-center mb-8 shadow-[0_0_50px_rgba(251,191,36,0.4)]"
+                                    initial={{ opacity: 0, y: 50 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: 1, duration: 1 }}
+                                    className="absolute inset-0 flex flex-col items-center justify-center text-center z-20"
                                 >
-                                    <Sun className="w-16 h-16 text-amber-100" />
+                                    <motion.h2
+                                        animate={{ scale: [1, 1.05, 1], filter: ["blur(0px)", "blur(2px)", "blur(0px)"] }}
+                                        transition={{ duration: 4, repeat: Infinity }}
+                                        className="text-7xl md:text-9xl font-serif font-black text-amber-100 drop-shadow-[0_0_30px_rgba(251,191,36,0.8)]"
+                                    >
+                                        SO'HAM
+                                    </motion.h2>
+                                    <p className="text-amber-400 font-black tracking-[0.5em] text-sm mt-4 uppercase">I AM THAT</p>
                                 </motion.div>
-                                <h3 className="text-2xl font-serif font-bold text-amber-50 mb-4 tracking-wide">The Hiranmaya Patra</h3>
-                                <p className="text-amber-100/70 text-sm leading-relaxed mb-8 italic">
-                                    "The face of Truth is covered by a golden disc..."
-                                </p>
-                                <button className="px-8 py-3 bg-white text-amber-900 rounded-full font-black text-sm uppercase tracking-widest shadow-xl group-hover:scale-105 transition-transform flex items-center gap-3">
-                                    <Eye className="w-4 h-4" />
-                                    Lift the Lid
-                                </button>
-                            </motion.div>
-                        ) : (
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                className="absolute inset-0 z-10 bg-black flex items-center justify-center"
-                            >
-                                {image ? (
-                                    <img src={image} className="w-full h-full object-cover opacity-80" alt="Truth Revealed" />
-                                ) : (
-                                    <div className="text-center space-y-4">
-                                        <div className="text-6xl animate-pulse">☀️</div>
-                                        <p className="text-amber-500 font-bold uppercase tracking-widest text-[10px]">Pure Consciousness Revealed</p>
-                                    </div>
-                                )}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
-                                <button
-                                    onClick={() => setIsRevealed(false)}
-                                    className="absolute top-6 right-6 p-2 bg-black/40 text-amber-500 rounded-full border border-amber-500/20 hover:bg-amber-500 hover:text-black transition-all"
-                                >
-                                    <ChevronLeft className="w-5 h-5" />
-                                </button>
-                            </motion.div>
-                        )
-                        }
+                            )}
+                        </motion.div>
                     </AnimatePresence>
                 </div>
 
                 {/* Content Section */}
-                <div className="lg:col-span-7 space-y-8">
+                <div className="lg:col-span-12 space-y-8">
                     <AnimatePresence mode="wait">
                         <motion.div
                             key={shloka.number}
@@ -273,6 +415,8 @@ function RevelationMode({ lang }: { lang: "en" | "hi" }) {
                                     {lang === "en" ? shloka.meaningEnglish : shloka.meaningHindi}
                                 </p>
                             </div>
+
+                            <WordMeanings meanings={shloka.wordMeanings} lang={lang} />
 
                             <div className="bg-gradient-to-br from-amber-600/30 to-orange-600/10 rounded-3xl p-10 border border-amber-400/50 shadow-2xl relative overflow-hidden group">
                                 <h4 className="text-amber-400 text-xs font-black uppercase tracking-[0.3em] mb-6 flex items-center gap-3">
@@ -327,7 +471,7 @@ function RevelationMode({ lang }: { lang: "en" | "hi" }) {
 export default function IshaLayout() {
     const router = useRouter();
     const [lang, setLang] = useState<"en" | "hi">("en");
-    const [activeTab, setActiveTab] = useState<"foundation" | "philosophy" | "knowledge" | "prayer">("foundation");
+    const [activeTab, setActiveTab] = useState<"summary" | "foundation" | "philosophy" | "knowledge" | "prayer">("summary");
     const [isPlaying, setIsPlaying] = useState(false);
 
     return (
@@ -389,6 +533,7 @@ export default function IshaLayout() {
 
                     <div className="flex bg-black/60 rounded-2xl p-1.5 border border-white/5 shadow-2xl overflow-x-auto no-scrollbar max-w-[60%] md:max-w-none">
                         {[
+                            { id: "summary", label: "Overview", icon: Info },
                             { id: "foundation", label: "Foundation", icon: BookOpen },
                             { id: "philosophy", label: "Philosophy", icon: Sparkles },
                             { id: "knowledge", label: "Knowledge", icon: Sun },
@@ -398,12 +543,12 @@ export default function IshaLayout() {
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id as any)}
                                 className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-xs font-black transition-all whitespace-nowrap ${activeTab === tab.id
-                                        ? "bg-amber-600 text-amber-950 shadow-lg"
-                                        : "text-amber-600 hover:text-amber-400"
+                                    ? "bg-amber-600 text-amber-950 shadow-lg"
+                                    : "text-amber-600 hover:text-amber-400"
                                     }`}
                             >
                                 <tab.icon className="w-4 h-4" />
-                                <span className="uppercase tracking-widest">{lang === "en" ? tab.label : (tab.id === "foundation" ? "आधार" : tab.id === "philosophy" ? "दर्शन" : tab.id === "knowledge" ? "ज्ञान" : "प्रार्थना")}</span>
+                                <span className="uppercase tracking-widest">{lang === "en" ? tab.label : (tab.id === "summary" ? "सारांश" : tab.id === "foundation" ? "आधार" : tab.id === "philosophy" ? "दर्शन" : tab.id === "knowledge" ? "ज्ञान" : "प्रार्थना")}</span>
                             </button>
                         ))}
                     </div>
@@ -453,6 +598,9 @@ export default function IshaLayout() {
                         exit={{ opacity: 0, scale: 0.98 }}
                         transition={{ duration: 0.4 }}
                     >
+                        {activeTab === "summary" && (
+                            <IshaOverview lang={lang} />
+                        )}
                         {activeTab === "foundation" && (
                             <WisdomStream
                                 data={foundationData}

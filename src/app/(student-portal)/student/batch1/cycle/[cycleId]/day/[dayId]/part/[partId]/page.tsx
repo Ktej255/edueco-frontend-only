@@ -467,7 +467,7 @@ export default function PartLearningPage() {
                                 /* Real video player when URL is available */
                                 <video
                                     ref={videoRef}
-                                    src={`http://localhost:8000${segment.video_url}`}
+                                    src={`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}${segment.video_url}`}
                                     className="w-full h-full object-contain"
                                     controls
                                     onEnded={() => {

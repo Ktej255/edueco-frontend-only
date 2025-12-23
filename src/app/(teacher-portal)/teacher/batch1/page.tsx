@@ -170,6 +170,7 @@ function DayContentUpload({ cycleId, cycleName, dayNumber, color, onBack }: {
     color: string;
     onBack: () => void;
 }) {
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
     const [videos, setVideos] = useState<Record<string, { file: File | null; title: string; notes: string; existingVideoUrl?: string | null }>>({});
     const [saving, setSaving] = useState(false);
     const [uploadProgress, setUploadProgress] = useState<string>("");
@@ -186,7 +187,7 @@ function DayContentUpload({ cycleId, cycleName, dayNumber, color, onBack }: {
                 // Fetch all 3 parts
                 for (const part of parts) {
                     const response = await fetch(
-                        `http://localhost:8000/api/v1/batch1/cycle/${cycleId}/day/${dayNumber}/part/${part}`
+                        `${API_URL}/api/v1/batch1/cycle/${cycleId}/day/${dayNumber}/part/${part}`
                     );
                     if (response.ok) {
                         const data = await response.json();
@@ -215,7 +216,7 @@ function DayContentUpload({ cycleId, cycleName, dayNumber, color, onBack }: {
         };
 
         fetchExistingContent();
-    }, [cycleId, dayNumber]);
+    }, [cycleId, dayNumber, API_URL]);
 
     const getColorClasses = (c: string) => {
         const colors: Record<string, { bg: string; text: string }> = {
@@ -267,7 +268,7 @@ function DayContentUpload({ cycleId, cycleName, dayNumber, color, onBack }: {
 
                         // Call backend API
                         const response = await fetch(
-                            `http://localhost:8000/api/v1/batch1/cycle/${cycleId}/day/${dayNumber}/part/${part}/segment/${seg}`,
+                            `${API_URL}/api/v1/batch1/cycle/${cycleId}/day/${dayNumber}/part/${part}/segment/${seg}`,
                             {
                                 method: "POST",
                                 body: formData,
