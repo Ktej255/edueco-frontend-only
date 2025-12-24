@@ -13,6 +13,7 @@ import {
     X,
     Settings,
     User,
+    Shield,
 } from "lucide-react";
 import { getStudentStats, StudentStats } from "@/services/progressStorage";
 import { useAuth } from "@/contexts/auth-context";
@@ -248,6 +249,19 @@ export default function StudentSidebar({ isCollapsed, onToggle }: StudentSidebar
                     </div>
                 </div>
             </div>
+
+            {/* Admin Portal Switcher - Only for Master ID */}
+            {isMasterId && (
+                <div className={`p-4 border-t border-gray-200 dark:border-gray-800 transition-opacity duration-200 ${showExpanded ? "opacity-100" : "opacity-0 h-0 overflow-hidden p-0"}`}>
+                    <Link
+                        href="/dashboard"
+                        className="flex items-center gap-3 px-4 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-indigo-600 text-white hover:from-purple-600 hover:to-indigo-700 transition-all shadow-lg"
+                    >
+                        <Shield className="h-5 w-5" />
+                        <span className="font-medium">Admin Portal</span>
+                    </Link>
+                </div>
+            )}
 
             {/* Bottom Menu Items */}
             <nav className="absolute bottom-0 left-0 right-0 p-4 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 space-y-2">

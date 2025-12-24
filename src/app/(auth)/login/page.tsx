@@ -55,8 +55,8 @@ export default function LoginPage() {
       // Update with full access token
       localStorage.setItem("token", response.access_token);
 
-      // Redirect or refresh to complete login
-      window.location.href = "/dashboard";
+      // Redirect to student portal (Master ID can access both portals)
+      window.location.href = "/student/dashboard";
     } catch (err: any) {
       // Error will be handled by TwoFactorVerification component
       throw err;
