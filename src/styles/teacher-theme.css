@@ -1,0 +1,105 @@
+/**
+ * Teacher Portal Theme Overrides
+ * 
+ * These styles apply when viewing pages through the teacher portal,
+ * converting the dark gray theme to the emerald green theme.
+ */
+
+/* Teacher portal wrapper - applies to all content in teacher layout */
+.teacher-theme {
+    --teacher-bg: #f3f4f6;
+    --teacher-card: #ffffff;
+    --teacher-border: #e5e7eb;
+    --teacher-accent: #10b981;
+    --teacher-accent-dark: #059669;
+}
+
+/* Override dark backgrounds in teacher portal context */
+.teacher-theme .bg-black {
+    background-color: var(--teacher-bg) !important;
+}
+
+.teacher-theme .bg-gray-900 {
+    background-color: var(--teacher-card) !important;
+}
+
+.teacher-theme .bg-gray-900\/50 {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.teacher-theme .bg-gray-800 {
+    background-color: #f9fafb !important;
+}
+
+/* Text color overrides */
+.teacher-theme .text-white {
+    color: #111827 !important;
+}
+
+.teacher-theme .text-gray-400 {
+    color: #6b7280 !important;
+}
+
+.teacher-theme .text-gray-300 {
+    color: #4b5563 !important;
+}
+
+/* Border overrides */
+.teacher-theme .border-gray-800 {
+    border-color: var(--teacher-border) !important;
+}
+
+.teacher-theme .border-gray-700 {
+    border-color: #d1d5db !important;
+}
+
+/* Button overrides - blue to emerald */
+.teacher-theme .bg-blue-600 {
+    background-color: var(--teacher-accent) !important;
+}
+
+.teacher-theme .bg-blue-600:hover,
+.teacher-theme .hover\:bg-blue-500:hover {
+    background-color: var(--teacher-accent-dark) !important;
+}
+
+/* Badge overrides */
+.teacher-theme .bg-gray-800.text-gray-400 {
+    background-color: #ecfdf5 !important;
+    color: #059669 !important;
+}
+
+/* Card hover states */
+.teacher-theme .hover\:bg-gray-800:hover {
+    background-color: #f3f4f6 !important;
+}
+
+/* Shadow adjustments for light theme */
+.teacher-theme .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Input overrides */
+.teacher-theme .bg-gray-800.border-gray-700 {
+    background-color: #ffffff !important;
+    border-color: #d1d5db !important;
+    color: #111827 !important;
+}
+
+/* Scrollbar styling for teacher theme */
+.teacher-theme ::-webkit-scrollbar {
+    width: 8px;
+}
+
+.teacher-theme ::-webkit-scrollbar-track {
+    background: #f3f4f6;
+}
+
+.teacher-theme ::-webkit-scrollbar-thumb {
+    background: #10b981;
+    border-radius: 4px;
+}
+
+.teacher-theme ::-webkit-scrollbar-thumb:hover {
+    background: #059669;
+}

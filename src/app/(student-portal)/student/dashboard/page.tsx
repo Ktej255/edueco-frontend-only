@@ -12,6 +12,8 @@ import {
     GraduationCap,
     RefreshCw,
     Clock,
+    Rocket,
+    Sparkles,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -308,6 +310,66 @@ export default function StudentDashboard() {
                     </CardContent>
                 </Card>
             </div>
+
+            {/* Batch 2 Section */}
+            <Card className="border-l-4 border-l-amber-500 bg-gradient-to-r from-amber-50/50 to-orange-50/50 dark:from-amber-900/10 dark:to-orange-900/10">
+                <CardHeader className="pb-2">
+                    <CardTitle className="flex items-center gap-2 text-lg">
+                        <Rocket className="h-5 w-5 text-amber-600" />
+                        Batch 2 - Research Hub
+                        <span className="ml-auto px-2 py-0.5 text-xs bg-amber-100 text-amber-700 rounded-full flex items-center gap-1">
+                            <Sparkles className="h-3 w-3" />
+                            Self Study
+                        </span>
+                    </CardTitle>
+                </CardHeader>
+                <CardContent>
+                    <div className="space-y-4">
+                        <div className="flex justify-between text-sm">
+                            <span className="text-gray-500">Missions Completed</span>
+                            <span className="font-semibold">2 / 5</span>
+                        </div>
+
+                        {/* Day Progress */}
+                        <div className="grid grid-cols-5 gap-2">
+                            {[1, 2, 3, 4, 5].map((day) => (
+                                <div
+                                    key={day}
+                                    className={`text-center p-2 rounded-lg ${day <= 2
+                                            ? 'bg-amber-500 text-white'
+                                            : 'bg-gray-100 dark:bg-gray-800 text-gray-400'
+                                        }`}
+                                >
+                                    <div className="text-xs">Day</div>
+                                    <div className="font-bold">{day}</div>
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="bg-amber-100 dark:bg-amber-900/20 rounded-lg p-3">
+                            <div className="flex justify-between text-sm mb-1">
+                                <span className="text-amber-800 dark:text-amber-200">Avg. AI Score</span>
+                                <span className="font-bold text-amber-600">82%</span>
+                            </div>
+                            <Progress value={82} className="h-2" />
+                        </div>
+
+                        <div className="flex gap-2">
+                            <Link href="/student/batch2?tab=missions" className="flex-1">
+                                <Button className="w-full bg-amber-500 hover:bg-amber-600">
+                                    Continue <ArrowRight className="ml-2 h-4 w-4" />
+                                </Button>
+                            </Link>
+                            <Link href="/student/batch2?tab=progress">
+                                <Button variant="outline" className="border-amber-500 text-amber-700">
+                                    Details
+                                </Button>
+                            </Link>
+                        </div>
+                    </div>
+                </CardContent>
+            </Card>
+
 
             {/* Recent Activity */}
             <Card>
