@@ -55,6 +55,7 @@ const SelfStudyMissions = dynamic(() => import("@/components/batch2/SelfStudyMis
     )
 });
 
+// Deployment timestamp: 2024-12-24T18:10:00+05:30
 interface MonthData {
     month: string;
     status: "completed" | "in-progress" | "planned";
@@ -350,17 +351,17 @@ export default function Batch2Page() {
                                                 <div
                                                     key={item.day}
                                                     className={`flex items-center gap-4 p-4 rounded-xl border transition-all ${item.status === "completed"
-                                                            ? "bg-green-50 border-green-200"
-                                                            : item.status === "in-progress"
-                                                                ? "bg-amber-50 border-amber-200"
-                                                                : "bg-gray-50 border-gray-200 opacity-60"
+                                                        ? "bg-green-50 border-green-200"
+                                                        : item.status === "in-progress"
+                                                            ? "bg-amber-50 border-amber-200"
+                                                            : "bg-gray-50 border-gray-200 opacity-60"
                                                         }`}
                                                 >
                                                     <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold ${item.status === "completed"
-                                                            ? "bg-green-500 text-white"
-                                                            : item.status === "in-progress"
-                                                                ? "bg-amber-500 text-white"
-                                                                : "bg-gray-300 text-gray-500"
+                                                        ? "bg-green-500 text-white"
+                                                        : item.status === "in-progress"
+                                                            ? "bg-amber-500 text-white"
+                                                            : "bg-gray-300 text-gray-500"
                                                         }`}>
                                                         {item.status === "completed" ? "✓" : item.day}
                                                     </div>
@@ -376,7 +377,7 @@ export default function Batch2Page() {
                                                     {item.score !== null && (
                                                         <div className="text-right">
                                                             <div className={`text-xl font-bold ${item.score >= 80 ? "text-green-600" :
-                                                                    item.score >= 60 ? "text-amber-600" : "text-red-600"
+                                                                item.score >= 60 ? "text-amber-600" : "text-red-600"
                                                                 }`}>
                                                                 {item.score}%
                                                             </div>
